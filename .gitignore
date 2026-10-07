@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+*.tmp
+celerybeat-schedule*
+.DS_Store
+.idea/
+.vscode/
+# data/raw і data/normalized НЕ ігноруємо — їх треба здати разом з репо

@@ -1,0 +1,27 @@
+groups:
+  - name: scraper
+    rules:
+      - alert: ScraperLowSuccessRate
+        expr: |
+          sum by (source) (increase(scraper_pages_total{status="ok"}[1h]))
+            / sum by (source) (increase(scraper_pages_total[1h])) < 0.8
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Success rate {{ $labels.source }} < 80% за годину"
+
+      - alert: ScraperValidationErrors
+        expr: sum by (source, page_type) (increase(scraper_validation_errors_total[1h])) > 0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Порушення контракту даних ({{ $labels.page_type }}) — можливо, змінився DOM"
+
+      - alert: ScraperStale
+        expr: time() - max by (source) (scraper_last_success_timestamp_seconds) > 3 * 3600
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.source }}: жодної успішної сторінки понад 3 години"

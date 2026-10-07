@@ -1,0 +1,122 @@
+# BASIC:    docker compose --profile basic up --build
+# ADVANCED: docker compose --profile advanced up -d --build
+#           docker compose exec worker-html python -m app.enqueue all   # запустити одразу, не чекаючи beat
+
+x-app: &app
+  build:
+    context: .
+    target: html
+  image: scraper-fleet:html
+  env_file:
+    - path: .env
+      required: false
+  environment: &app-env
+    DATA_DIR: /app/data
+    LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    LOG_FORMAT: ${LOG_FORMAT:-json}
+    BOOKS_BASE_URL: ${BOOKS_BASE_URL:-https://books.toscrape.com/}
+    QUOTES_JS_URL: ${QUOTES_JS_URL:-https://quotes.toscrape.com/js/}
+    MAX_PAGES: ${MAX_PAGES:-15}
+    LIST_PAGES: ${LIST_PAGES:-1}
+    JS_PAGES: ${JS_PAGES:-2}
+    REQUEST_DELAY_MS: ${REQUEST_DELAY_MS:-500}
+    CELERY_BROKER_URL: redis://redis:6379/0
+    CELERY_RESULT_BACKEND: redis://redis:6379/1
+    BOOKS_INTERVAL_SECONDS: ${BOOKS_INTERVAL_SECONDS:-1800}
+    QUOTES_INTERVAL_SECONDS: ${QUOTES_INTERVAL_SECONDS:-3600}
+    METRICS_PORT: "9100"
+  volumes:
+    - ./data:/app/data
+
+services:
+  # ------------------------------------------------------------------ BASIC
+  scraper-basic:
+    <<: *app
+    container_name: scraper-basic
+    profiles: ["basic"]
+    command: ["python", "-m", "app.run_basic"]
+    restart: "no"
+
+  # --------------------------------------------------------------- ADVANCED
+  redis:
+    image: redis:7-alpine
+    profiles: ["advanced"]
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  worker-html:
+    <<: *app
+    profiles: ["advanced"]
+    command: ["celery", "-A", "app.celery_app", "worker", "-Q", "html", "-n", "worker-html@%h", "-P", "solo", "--loglevel=INFO"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  worker-js:
+    <<: *app
+    build:
+      context: .
+      target: js
+    image: scraper-fleet:js
+    profiles: ["advanced"]
+    command: ["celery", "-A", "app.celery_app", "worker", "-Q", "js", "-n", "worker-js@%h", "-P", "solo", "--loglevel=INFO"]
+    shm_size: "1gb"   # Chromium падає з дефолтними 64 MB /dev/shm
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  beat:
+    <<: *app
+    profiles: ["advanced"]
+    command: ["celery", "-A", "app.celery_app", "beat", "--loglevel=INFO", "--schedule", "/tmp/celerybeat-schedule"]
+    volumes: []
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    profiles: ["advanced"]
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./monitoring/alerts.yml:/etc/prometheus/alerts.yml:ro
+      - prometheus-data:/prometheus
+    ports:
+      - "9090:9090"
+    depends_on:
+      - worker-html
+      - worker-js
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:12.1.0
+    profiles: ["advanced"]
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Viewer
+    volumes:
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana-data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+  prometheus-data:
+  grafana-data:

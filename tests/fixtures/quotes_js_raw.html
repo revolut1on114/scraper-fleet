@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes to Scrape</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row header-box">
+            <div class="col-md-8"><h1><a href="/" style="text-decoration: none">Quotes to Scrape</a></h1></div>
+        </div>
+    <!-- Сирий HTML до виконання JS: цитат у DOM ще немає, лише дані у скрипті -->
+    <script src="/static/jquery.js"></script>
+    <script>
+    var data = [
+    {"tags": ["change", "deep-thoughts", "thinking", "world"], "author": {"name": "Albert Einstein", "goodreads_link": "/author/show/9810.Albert_Einstein", "slug": "Albert-Einstein"}, "text": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”"}
+    ];
+    for (var i in data) {
+        var d = data[i];
+        var tags = $.map(d['tags'], function(t) { return "<a class='tag'>" + t + "</a>"; }).join(" ");
+        document.write("<div class='quote'><span class='text'>" + d['text'] + "</span><span>by <small class='author'>" + d['author']['name'] + "</small></span><div class='tags'>Tags: " + tags + "</div></div>");
+    }
+    </script>
+    <nav>
+        <ul class="pager">
+            <li class="next"><a href="/js/page/2/">Next <span aria-hidden="true">&rarr;</span></a></li>
+        </ul>
+    </nav>
+    </div>
+</body>
+</html>
