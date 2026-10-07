@@ -8,4 +8,5 @@ data/normalized/*
 docs
 monitoring
 *.md
+scripts
 .env

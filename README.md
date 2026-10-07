@@ -29,6 +29,8 @@ docker compose --profile basic up --build
    - `data/normalized/books.toscrape.com/<id>.json` — нормалізований запис;
 4. наприкінці друкує підсумок і зберігає його в `data/run_summary.json`.
 
+На Windows те саме подвійним кліком: `scripts\run-basic.bat` (є також `run-advanced.bat`, `test.bat`, `stop.bat`, `setup-venv.ps1`).
+
 Без Docker:
 
 ```bash
@@ -183,6 +185,7 @@ monitoring/         Prometheus, алерти, Grafana provisioning + дашбо�
 data/raw/           сирі відповіді
 data/normalized/    нормалізовані записи
 docs/               архітектура, runbook, AI-workflow, скриншоти
+scripts/            .bat/.ps1 для запуску на Windows
 ```
 
 ## Що здати (чеклист)
