@@ -1,0 +1,33 @@
+{
+  "url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+  "title": "Sharp Objects",
+  "fetched_at": "2026-10-15T13:44:31+00:00",
+  "source": "books.toscrape.com",
+  "content": "[Books to Scrape](https://books.toscrape.com/index.html) We love being scraped!\n  * [Home](https://books.toscrape.com/index.html)\n  * [Books](https://books.toscrape.com/catalogue/category/books_1/index.html)\n  * [Mystery](https://books.toscrape.com/catalogue/category/books/mystery_3/index.html)\n  * Sharp Objects\n\n\n![Sharp Objects](https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg)\n# Sharp Objects\n£47.82\nIn stock (20 available) \n* * *\n**Warning!** This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n## Product Description\nWICKED above her hipbone, GIRL across her heart Words are like a road map to reporter Camille Preaker’s troubled past. Fresh from a brief stay at a psych hospital, Camille’s first assignment from the second-rate daily paper where she works brings her reluctantly back to her hometown to cover the murders of two preteen girls. NASTY on her kneecap, BABYDOLL on her leg Since WICKED above her hipbone, GIRL across her heart Words are like a road map to reporter Camille Preaker’s troubled past. Fresh from a brief stay at a psych hospital, Camille’s first assignment from the second-rate daily paper where she works brings her reluctantly back to her hometown to cover the murders of two preteen girls. NASTY on her kneecap, BABYDOLL on her leg Since she left town eight years ago, Camille has hardly spoken to her neurotic, hypochondriac mother or to the half-sister she barely knows: a beautiful thirteen-year-old with an eerie grip on the town. Now, installed again in her family’s Victorian mansion, Camille is haunted by the childhood tragedy she has spent her whole life trying to cut from her memory. HARMFUL on her wrist, WHORE on her ankle As Camille works to uncover the truth about these violent crimes, she finds herself identifying with the young victims—a bit too strongly. Clues keep leading to dead ends, forcing Camille to unravel the psychological puzzle of her own past to get at the story. Dogged by her own demons, Camille will have to confront what happened to her years before if she wants to survive this homecoming.With its taut, crafted writing, Sharp Objects is addictive, haunting, and unforgettable. ...more\n## Product Information  \n| UPC  | e00eb4fd7b871a48  |  \n| --- | --- |  \n| Product Type  | Books  |  \n| Price (excl. tax)  | £47.82  |  \n| Price (incl. tax)  | £47.82  |  \n| Tax  | £0.00  |  \n| Availability  | In stock (20 available)  |  \n| Number of reviews  | 0  |  \n## Products you recently viewed\n  * [![Soumission](https://books.toscrape.com/media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg)](https://books.toscrape.com/catalogue/soumission_998/index.html)\n### [Soumission](https://books.toscrape.com/catalogue/soumission_998/index.html \"Soumission\")\n£50.10\nIn stock \nAdd to basket\n  * [![Tipping the Velvet](https://books.toscrape.com/media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg)](https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html)\n### [Tipping the Velvet](https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html \"Tipping the Velvet\")\n£53.74\nIn stock \nAdd to basket\n  * [![A Light in the Attic](https://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg)](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html)\n### [A Light in the ...](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html \"A Light in the Attic\")\n£51.77\nIn stock \nAdd to basket\n\n\n",
+  "links": [
+    "https://books.toscrape.com/index.html",
+    "https://books.toscrape.com/catalogue/category/books_1/index.html",
+    "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+    "https://books.toscrape.com/catalogue/soumission_998/index.html",
+    "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+  ],
+  "page_type": "books_detail",
+  "worker": "worker-html",
+  "parser_version": "1.0.0",
+  "valid": true,
+  "validation_errors": [],
+  "data": {
+    "title": "Sharp Objects",
+    "price_gbp": 47.82,
+    "in_stock": true,
+    "stock_qty": 20,
+    "rating": 4,
+    "category": "Mystery",
+    "upc": "e00eb4fd7b871a48",
+    "product_type": "Books",
+    "num_reviews": 0,
+    "description": "WICKED above her hipbone, GIRL across her heart Words are like a road map to reporter Camille Preaker’s troubled past. Fresh from a brief stay at a psych hospital, Camille’s first assignment from the second-rate daily paper where she works brings her reluctantly back to her hometown to cover the murders of two preteen girls. NASTY on her kneecap, BABYDOLL on her leg Since WICKED above her hipbone, GIRL across her heart Words are like a road map to reporter Camille Preaker’s troubled past. Fresh from a brief stay at a psych hospital, Camille’s first assignment from the second-rate daily paper where she works brings her reluctantly back to her hometown to cover the murders of two preteen girls. NASTY on her kneecap, BABYDOLL on her leg Since she left town eight years ago, Camille has hardly spoken to her neurotic, hypochondriac mother or to the half-sister she barely knows: a beautiful thirteen-year-old with an eerie grip on the town. Now, installed again in her family’s Victorian mansion, Camille is haunted by the childhood tragedy she has spent her whole life trying to cut from her memory. HARMFUL on her wrist, WHORE on her ankle As Camille works to uncover the truth about these violent crimes, she finds herself identifying with the young victims—a bit too strongly. Clues keep leading to dead ends, forcing Camille to unravel the psychological puzzle of her own past to get at the story. Dogged by her own demons, Camille will have to confront what happened to her years before if she wants to survive this homecoming.With its taut, crafted writing, Sharp Objects is addictive, haunting, and unforgettable. ...more",
+    "image_url": "https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg"
+  }
+}

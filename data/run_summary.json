@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-10-15T13:44:27+00:00",
+  "finished_at": "2026-10-15T13:44:38+00:00",
+  "worker": "worker-html",
+  "pages_total": 15,
+  "by_status": {
+    "ok": 15
+  },
+  "success_rate": 1.0,
+  "failed_urls": []
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+  "title": "Soumission",
+  "fetched_at": "2026-10-15T13:44:30+00:00",
+  "source": "books.toscrape.com",
+  "content": "[Books to Scrape](https://books.toscrape.com/index.html) We love being scraped!\n  * [Home](https://books.toscrape.com/index.html)\n  * [Books](https://books.toscrape.com/catalogue/category/books_1/index.html)\n  * [Fiction](https://books.toscrape.com/catalogue/category/books/fiction_10/index.html)\n  * Soumission\n\n\n![Soumission](https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg)\n# Soumission\n£50.10\nIn stock (20 available) \n* * *\n**Warning!** This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n## Product Description\nDans une France assez proche de la nôtre, un homme s’engage dans la carrière universitaire. Peu motivé par l’enseignement, il s’attend à une vie ennuyeuse mais calme, protégée des grands drames historiques. Cependant les forces en jeu dans le pays ont fissuré le système politique jusqu’à provoquer son effondrement. Cette implosion sans soubresauts, sans vraie révolution, s Dans une France assez proche de la nôtre, un homme s’engage dans la carrière universitaire. Peu motivé par l’enseignement, il s’attend à une vie ennuyeuse mais calme, protégée des grands drames historiques. Cependant les forces en jeu dans le pays ont fissuré le système politique jusqu’à provoquer son effondrement. Cette implosion sans soubresauts, sans vraie révolution, se développe comme un mauvais rêve.Le talent de l’auteur, sa force visionnaire nous entraînent sur un terrain ambigu et glissant ; son regard sur notre civilisation vieillissante fait coexister dans ce roman les intuitions poétiques, les effets comiques, une mélancolie fataliste.Ce livre est une saisissante fable politique et morale. ...more\n## Product Information  \n| UPC  | 6957f44c3847a760  |  \n| --- | --- |  \n| Product Type  | Books  |  \n| Price (excl. tax)  | £50.10  |  \n| Price (incl. tax)  | £50.10  |  \n| Tax  | £0.00  |  \n| Availability  | In stock (20 available)  |  \n| Number of reviews  | 0  |  \n## Products you recently viewed\n  * [![Tipping the Velvet](https://books.toscrape.com/media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg)](https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html)\n### [Tipping the Velvet](https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html \"Tipping the Velvet\")\n£53.74\nIn stock \nAdd to basket\n  * [![A Light in the Attic](https://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg)](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html)\n### [A Light in the ...](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html \"A Light in the Attic\")\n£51.77\nIn stock \nAdd to basket\n\n\n",
+  "links": [
+    "https://books.toscrape.com/index.html",
+    "https://books.toscrape.com/catalogue/category/books_1/index.html",
+    "https://books.toscrape.com/catalogue/category/books/fiction_10/index.html",
+    "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+  ],
+  "page_type": "books_detail",
+  "worker": "worker-html",
+  "parser_version": "1.0.0",
+  "valid": true,
+  "validation_errors": [],
+  "data": {
+    "title": "Soumission",
+    "price_gbp": 50.1,
+    "in_stock": true,
+    "stock_qty": 20,
+    "rating": 1,
+    "category": "Fiction",
+    "upc": "6957f44c3847a760",
+    "product_type": "Books",
+    "num_reviews": 0,
+    "description": "Dans une France assez proche de la nôtre, un homme s’engage dans la carrière universitaire. Peu motivé par l’enseignement, il s’attend à une vie ennuyeuse mais calme, protégée des grands drames historiques. Cependant les forces en jeu dans le pays ont fissuré le système politique jusqu’à provoquer son effondrement. Cette implosion sans soubresauts, sans vraie révolution, s Dans une France assez proche de la nôtre, un homme s’engage dans la carrière universitaire. Peu motivé par l’enseignement, il s’attend à une vie ennuyeuse mais calme, protégée des grands drames historiques. Cependant les forces en jeu dans le pays ont fissuré le système politique jusqu’à provoquer son effondrement. Cette implosion sans soubresauts, sans vraie révolution, se développe comme un mauvais rêve.Le talent de l’auteur, sa force visionnaire nous entraînent sur un terrain ambigu et glissant ; son regard sur notre civilisation vieillissante fait coexister dans ce roman les intuitions poétiques, les effets comiques, une mélancolie fataliste.Ce livre est une saisissante fable politique et morale. ...more",
+    "image_url": "https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg"
+  }
+}

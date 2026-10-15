@@ -1,0 +1,35 @@
+{
+  "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+  "title": "The Requiem Red",
+  "fetched_at": "2026-10-15T13:44:32+00:00",
+  "source": "books.toscrape.com",
+  "content": "[Books to Scrape](https://books.toscrape.com/index.html) We love being scraped!\n  * [Home](https://books.toscrape.com/index.html)\n  * [Books](https://books.toscrape.com/catalogue/category/books_1/index.html)\n  * [Young Adult](https://books.toscrape.com/catalogue/category/books/young-adult_21/index.html)\n  * The Requiem Red\n\n\n![The Requiem Red](https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg)\n# The Requiem Red\n£22.65\nIn stock (19 available) \n* * *\n**Warning!** This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n## Product Description\nPatient Twenty-nine.A monster roams the halls of Soothing Hills Asylum. Three girls dead. 29 is endowed with the curse…or gift of perception. She hears messages in music, sees lyrics in paintings. And the corn. A lifetime asylum resident, the orchestral corn music is the only constant in her life.Mason, a new, kind orderly, sees 29 as a woman, not a lunatic. And as his bel Patient Twenty-nine.A monster roams the halls of Soothing Hills Asylum. Three girls dead. 29 is endowed with the curse…or gift of perception. She hears messages in music, sees lyrics in paintings. And the corn. A lifetime asylum resident, the orchestral corn music is the only constant in her life.Mason, a new, kind orderly, sees 29 as a woman, not a lunatic. And as his belief in her grows, so does her self- confidence. That perhaps she might escape, might see the outside world. But the monster has other plans. The missing girls share one common thread...each was twenty-nine's cell mate. Will she be next? ...more\n## Product Information  \n| UPC  | f77dbf2323deb740  |  \n| --- | --- |  \n| Product Type  | Books  |  \n| Price (excl. tax)  | £22.65  |  \n| Price (incl. tax)  | £22.65  |  \n| Tax  | £0.00  |  \n| Availability  | In stock (19 available)  |  \n| Number of reviews  | 0  |  \n## Products you recently viewed\n  * [![Sapiens: A Brief History of Humankind](https://books.toscrape.com/media/cache/be/a5/bea5697f2534a2f86a3ef27b5a8c12a6.jpg)](https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html)\n### [Sapiens: A Brief History ...](https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html \"Sapiens: A Brief History of Humankind\")\n£54.23\nIn stock \nAdd to basket\n  * [![Sharp Objects](https://books.toscrape.com/media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg)](https://books.toscrape.com/catalogue/sharp-objects_997/index.html)\n### [Sharp Objects](https://books.toscrape.com/catalogue/sharp-objects_997/index.html \"Sharp Objects\")\n£47.82\nIn stock \nAdd to basket\n  * [![Soumission](https://books.toscrape.com/media/cache/3e/ef/3eef99c9d9adef34639f510662022830.jpg)](https://books.toscrape.com/catalogue/soumission_998/index.html)\n### [Soumission](https://books.toscrape.com/catalogue/soumission_998/index.html \"Soumission\")\n£50.10\nIn stock \nAdd to basket\n  * [![Tipping the Velvet](https://books.toscrape.com/media/cache/26/0c/260c6ae16bce31c8f8c95daddd9f4a1c.jpg)](https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html)\n### [Tipping the Velvet](https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html \"Tipping the Velvet\")\n£53.74\nIn stock \nAdd to basket\n  * [![A Light in the Attic](https://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg)](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html)\n### [A Light in the ...](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html \"A Light in the Attic\")\n£51.77\nIn stock \nAdd to basket\n\n\n",
+  "links": [
+    "https://books.toscrape.com/index.html",
+    "https://books.toscrape.com/catalogue/category/books_1/index.html",
+    "https://books.toscrape.com/catalogue/category/books/young-adult_21/index.html",
+    "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+    "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+    "https://books.toscrape.com/catalogue/soumission_998/index.html",
+    "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+  ],
+  "page_type": "books_detail",
+  "worker": "worker-html",
+  "parser_version": "1.0.0",
+  "valid": true,
+  "validation_errors": [],
+  "data": {
+    "title": "The Requiem Red",
+    "price_gbp": 22.65,
+    "in_stock": true,
+    "stock_qty": 19,
+    "rating": 1,
+    "category": "Young Adult",
+    "upc": "f77dbf2323deb740",
+    "product_type": "Books",
+    "num_reviews": 0,
+    "description": "Patient Twenty-nine.A monster roams the halls of Soothing Hills Asylum. Three girls dead. 29 is endowed with the curse…or gift of perception. She hears messages in music, sees lyrics in paintings. And the corn. A lifetime asylum resident, the orchestral corn music is the only constant in her life.Mason, a new, kind orderly, sees 29 as a woman, not a lunatic. And as his bel Patient Twenty-nine.A monster roams the halls of Soothing Hills Asylum. Three girls dead. 29 is endowed with the curse…or gift of perception. She hears messages in music, sees lyrics in paintings. And the corn. A lifetime asylum resident, the orchestral corn music is the only constant in her life.Mason, a new, kind orderly, sees 29 as a woman, not a lunatic. And as his belief in her grows, so does her self- confidence. That perhaps she might escape, might see the outside world. But the monster has other plans. The missing girls share one common thread...each was twenty-nine's cell mate. Will she be next? ...more",
+    "image_url": "https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg"
+  }
+}

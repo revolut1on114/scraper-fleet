@@ -1,0 +1,31 @@
+{
+  "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+  "title": "Tipping the Velvet",
+  "fetched_at": "2026-10-15T13:44:29+00:00",
+  "source": "books.toscrape.com",
+  "content": "[Books to Scrape](https://books.toscrape.com/index.html) We love being scraped!\n  * [Home](https://books.toscrape.com/index.html)\n  * [Books](https://books.toscrape.com/catalogue/category/books_1/index.html)\n  * [Historical Fiction](https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html)\n  * Tipping the Velvet\n\n\n![Tipping the Velvet](https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg)\n# Tipping the Velvet\n£53.74\nIn stock (20 available) \n* * *\n**Warning!** This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.\n## Product Description\n\"Erotic and absorbing...Written with starling power.\"--\"The New York Times Book Review \" Nan King, an oyster girl, is captivated by the music hall phenomenon Kitty Butler, a male impersonator extraordinaire treading the boards in Canterbury. Through a friend at the box office, Nan manages to visit all her shows and finally meet her heroine. Soon after, she becomes Kitty's \"Erotic and absorbing...Written with starling power.\"--\"The New York Times Book Review \" Nan King, an oyster girl, is captivated by the music hall phenomenon Kitty Butler, a male impersonator extraordinaire treading the boards in Canterbury. Through a friend at the box office, Nan manages to visit all her shows and finally meet her heroine. Soon after, she becomes Kitty's dresser and the two head for the bright lights of Leicester Square where they begin a glittering career as music-hall stars in an all-singing and dancing double act. At the same time, behind closed doors, they admit their attraction to each other and their affair begins. ...more\n## Product Information  \n| UPC  | 90fa61229261140a  |  \n| --- | --- |  \n| Product Type  | Books  |  \n| Price (excl. tax)  | £53.74  |  \n| Price (incl. tax)  | £53.74  |  \n| Tax  | £0.00  |  \n| Availability  | In stock (20 available)  |  \n| Number of reviews  | 0  |  \n## Products you recently viewed\n  * [![A Light in the Attic](https://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg)](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html)\n### [A Light in the ...](https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html \"A Light in the Attic\")\n£51.77\nIn stock \nAdd to basket\n\n\n",
+  "links": [
+    "https://books.toscrape.com/index.html",
+    "https://books.toscrape.com/catalogue/category/books_1/index.html",
+    "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html",
+    "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+  ],
+  "page_type": "books_detail",
+  "worker": "worker-html",
+  "parser_version": "1.0.0",
+  "valid": true,
+  "validation_errors": [],
+  "data": {
+    "title": "Tipping the Velvet",
+    "price_gbp": 53.74,
+    "in_stock": true,
+    "stock_qty": 20,
+    "rating": 1,
+    "category": "Historical Fiction",
+    "upc": "90fa61229261140a",
+    "product_type": "Books",
+    "num_reviews": 0,
+    "description": "\"Erotic and absorbing...Written with starling power.\"--\"The New York Times Book Review \" Nan King, an oyster girl, is captivated by the music hall phenomenon Kitty Butler, a male impersonator extraordinaire treading the boards in Canterbury. Through a friend at the box office, Nan manages to visit all her shows and finally meet her heroine. Soon after, she becomes Kitty's \"Erotic and absorbing...Written with starling power.\"--\"The New York Times Book Review \" Nan King, an oyster girl, is captivated by the music hall phenomenon Kitty Butler, a male impersonator extraordinaire treading the boards in Canterbury. Through a friend at the box office, Nan manages to visit all her shows and finally meet her heroine. Soon after, she becomes Kitty's dresser and the two head for the bright lights of Leicester Square where they begin a glittering career as music-hall stars in an all-singing and dancing double act. At the same time, behind closed doors, they admit their attraction to each other and their affair begins. ...more",
+    "image_url": "https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg"
+  }
+}
